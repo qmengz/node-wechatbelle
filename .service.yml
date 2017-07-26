@@ -1,0 +1,14 @@
+kind: "Service"
+specVersion: "v4"
+metadata:
+  name: "node-wechatbelle"
+  apiVersion: "v1"
+  accessPoint:
+    container: "sample/node-wechatbelle"
+containers:
+  - name: "sample/node-wechatbelle"
+    ports:
+    - name: "api"
+      protocol: "tcp"
+      containerPort: 8080
+      targetPort: 0

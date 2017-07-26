@@ -1,0 +1,4 @@
+#服务注册名称
+SERVICE_NAME=node-wechatbelle
+#接口版本号
+API_VERSION=v1

@@ -1,0 +1,15 @@
+com\shuyun\wechatbelle\node\Application.class
+com\shuyun\wechatbelle\node\service\GuideService.class
+com\shuyun\wechatbelle\node\repository\impl\GuideRepositoryImpl.class
+com\shuyun\wechatbelle\node\repository\GuideRepository.class
+com\shuyun\wechatbelle\node\resource\GuideResource.class
+com\shuyun\wechatbelle\node\resource\GuideResource$1.class
+com\shuyun\wechatbelle\node\vo\NodeWechatBelleOpen.class
+com\shuyun\wechatbelle\node\service\impl\NodeWechatBelleServiceImpl.class
+com\shuyun\wechatbelle\node\domain\Guide.class
+com\shuyun\wechatbelle\node\service\NodeWechatBelleService.class
+com\shuyun\wechatbelle\node\service\impl\GuideServiceImpl.class
+com\shuyun\wechatbelle\node\vo\NamelistVo.class
+com\shuyun\wechatbelle\node\vo\BlacklistVo.class
+com\shuyun\wechatbelle\node\vo\GuideListJson.class
+com\shuyun\wechatbelle\node\resource\NodeWechatBelleResource.class

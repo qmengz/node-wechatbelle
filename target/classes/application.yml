@@ -1,0 +1,26 @@
+spring:
+  contextConfigLocation: classpath:spring/applicationContext.xml
+
+# use the simple server factory if you only want to run on a single port
+server:
+  type: simple
+  connector:
+    type: http
+    port: ${env["server.connector.port"]!8080}
+
+#migration:
+#  profile: ${conf['migration.profile']}
+#database:
+#  driverClass: ${conf['database.driverClass']}
+#  url: ${conf['database.url']}
+#  username: ${conf['database.username']}
+#  password: ${conf['database.password']}
+
+#  Logging settings.
+logging:
+  #  Logger-specific levels.
+  loggers:
+    #  Sets the level for 'com.example.app' to DEBUG.
+    com.shuyun.motor: DEBUG
+    com.shuyun.wechatbelle.node: DEBUG
+    org.hibernate.SQL: ALL
